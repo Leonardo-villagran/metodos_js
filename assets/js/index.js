@@ -52,7 +52,7 @@ function realizar_seleccion()
 
       if (invitado.completado==true){
         html += `<tr class="bg-success"><td>${invitado.id}</td><td>${invitado.nombre}</td>
-        <td><button class="bg-secondary text-light rounded" onclick="check(${invitado.id})">Completado</button></td>
+        <td><button class="bg-secondary text-light rounded" onclick="check(${invitado.id})">Realizado</button></td>
         <td><button class="bg-danger text-light rounded"
         onclick="borrar(${invitado.id})"> x </button></td>
         </tr>`;
